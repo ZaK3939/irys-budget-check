@@ -17,6 +17,12 @@ To run the project in development mode:
 npx trigger.dev@3.0.0-beta.56 dev
 ```
 
+To deploy
+
+```
+npx trigger.dev@beta deploy --skip-typecheck
+```
+
 This command starts the Trigger.dev development server and runs your scheduled task.
 
 # References
