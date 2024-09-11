@@ -23,6 +23,9 @@ export const dailyIrysBudgetCheck = schedules.task({
         url: 'https://node1.irys.xyz',
         token: 'matic',
         key: process.env.IRYS_PRIVATE_KEY!,
+        config: {
+          providerUrl: process.env.ANKR_RPC!,
+        },
       });
 
       // Get current balance

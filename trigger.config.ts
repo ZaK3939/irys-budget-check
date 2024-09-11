@@ -12,6 +12,8 @@ export const resolveEnvVars: ResolveEnvironmentVariablesFunction = async ({ proj
     variables: [
       { name: 'IRYS_PRIVATE_KEY', value: env.IRYS_PRIVATE_KEY },
       { name: 'DISCORD_WEBHOOK_URL', value: env.DISCORD_WEBHOOK_URL },
+      { name: 'ANKR_RPC', value: env.ANKR_RPC },
+      { name: 'POSTGRES_CONNECTION_STRING', value: env.POSTGRES_CONNECTION_STRING },
     ],
   };
 };
